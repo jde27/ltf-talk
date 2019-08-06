@@ -1,0 +1,61 @@
+@ title Constructing Lagrangian torus fibrations
+@ author Jonny Evans
+@ date joint with Mirko Mauri
+@ include beamer-head
+
+# frame
+  # overprint
+    \onslide<1>
+    # Theorem thm:gross Gross 1999
+      Many Calabi-Yau 3-folds admit topological torus
+      fibrations over \(S^3\) with singular fibres over a
+      trivalent graph.
+    \onslide<2>
+    \begin{block}{Question}
+    - Can we make these fibrations Lagrangian?
+    - Even just (semi-)locally?
+    \end{block}
+    \onslide<3>
+    \begin{block}{Positive vertex: Yes!}
+    \begin{align*}
+    F&\colon\CC^3\setminus\{xyz-1=0\}\to\RR^3\\
+    F(x,y,z)&=\left(|x|^2-|y|^2,|x|^2-|z|^2,|xyz-1|\right)
+    \end{align*}
+    \end{block}
+    \onslide<4>
+     \begin{block}{Negative vertex: ?}
+    \[F\colon\CC^3\setminus\{(xy-z-1)z=0\}\to\RR^3?\]
+    \end{block}
+    \onslide<5>
+     \begin{block}{Negative vertex: Yes!}
+    \[F\colon\CC^3\setminus\{(xy-z-1)z=0\}\to\RR^3\]
+    \end{block}
+
+  # overprint
+    \onslide<1-4>
+    # center
+      \includegraphics[width=250pt]{discriminant}
+    \onslide<5>
+    # center
+      \includegraphics[width=200pt]{theorems}
+
+# frame
+  {Proof}
+  # center
+    \includegraphics[width=310pt]{proof1}
+
+    \vspace{1cm}
+
+    \begin{minipage}[0.2\textheight]{\textwidth}
+    \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+    ! <2-> Lagrangian skeleton is Gross fibre.
+    ! <3> Contact boundary has LTF with three nodal fibres.
+    \end{column}
+    \begin{column}{0.4\textwidth}
+    # overprint
+      \onslide<2>\centering\includegraphics[width=100pt]{skeleton}
+      \onslide<3>\centering\includegraphics[width=100pt]{divisor}
+    \end{column}
+    \end{columns}
+    \end{minipage}
